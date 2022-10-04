@@ -36,7 +36,7 @@ class Stack:
         return len(self.empty_list)
 
 
-def checking(brackets_):
+def checking(brackets_: Stack) -> str:
     brackets_dict = {}
     close_bracket = [')', '}', ']']
     open_bracket = ['(', '{', '[']
