@@ -67,6 +67,6 @@ def checking(brackets_):
 
 
 if __name__ == '__main__':
-    example = '(:-)'
+    example = '(((([{}]))))'
     brackets = Stack(example)
     print(checking(brackets))
